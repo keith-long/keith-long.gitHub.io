@@ -6,7 +6,6 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 	</head>
 	<body class="is-preload">
 
@@ -153,12 +152,16 @@
 									<div class="col-6 col-12-small">
 										<input type="text" name="_replyto" id="email" placeholder="Email" />
 									</div>
-									<div class="g-recaptcha" data-sitekey="6Lc3FwEiAAAAAJpLvj8FUztpG4HADcOUuSFJe1zl"></div>
 									<div class="col-12">
 										<input type="text" name="_subject" id="subject" placeholder="Subject" />
 									</div>
 									<div class="col-12">
 										<textarea name="message" id="message" placeholder="Message"></textarea>
+									</div>
+									<div class="col-12">
+										<ul class="actions">
+											<li><div class="g-recaptcha" data-sitekey="6Lc3FwEiAAAAAJpLvj8FUztpG4HADcOUuSFJe1zl"></div></li>
+										</ul>
 									</div>
 									<div class="col-12">
 										<ul class="actions">
@@ -206,6 +209,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 	</body>
 </html>
